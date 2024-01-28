@@ -295,49 +295,71 @@ udp://@239.254.3.61:1234
 udp://@239.254.2.25:1234
 #EXTINF:0,Da Vinci
 udp://@239.254.2.173:1234
-#EXTINF:0,Galaxy
+
+#EXTINF:0 group-title="Познавательные",Galaxy
 udp://@239.254.3.65:1234
-#EXTINF:0,HDL
+
+#EXTINF:0 group-title="Познавательные",HDL
 udp://@239.254.2.135:1234
-#EXTINF:0,History HD
+
+#EXTINF:0 group-title="Познавательные",History HD
 udp://@239.254.2.159:1234
-#EXTINF:0,National Geographic HD
+
+#EXTINF:0 group-title="Познавательные",National Geographic HD
 udp://@239.254.2.136:1234
-#EXTINF:0,Ocean TV
+
+#EXTINF:0 group-title="Познавательные",Ocean TV
 udp://@239.254.2.55:1234
-#EXTINF:0,RTG HD
+
+#EXTINF:0 group-title="Познавательные",RTG HD
 udp://@239.254.2.84:1234
-#EXTINF:0,Travel+Adventure HD
+
+#EXTINF:0 group-title="Познавательные",Travel+Adventure HD
 udp://@239.254.2.206:1234
-#EXTINF:0,Viasat Explore
+
+#EXTINF:0 group-title="Познавательные",Viasat Explore
 udp://@239.254.2.49:1234
-#EXTINF:0,Viasat History
+
+#EXTINF:0 group-title="Познавательные",Viasat History
 udp://@239.254.2.52:1234
-#EXTINF:0,Viasat Nature
+
+#EXTINF:0 group-title="Познавательные",Viasat Nature
 udp://@239.254.2.172:1234
-#EXTINF:0,История
+
+#EXTINF:0 group-title="Познавательные",История
 udp://@239.254.2.248:1234
-#EXTINF:0,Морской
+
+#EXTINF:0 group-title="Познавательные",Морской
 udp://@239.254.3.36:1234
-#EXTINF:0,Мужской
+
+#EXTINF:0 group-title="Познавательные",Мужской
 udp://@239.254.2.75:1234
-#EXTINF:0,Наука
+
+#EXTINF:0 group-title="Познавательные",Наука
 udp://@239.254.2.146:1234
-#EXTINF:0,Оружие
+
+#EXTINF:0 group-title="Познавательные",Оружие
 udp://@239.254.2.188:1234
-#EXTINF:0,Первый космический HD
+
+#EXTINF:0 group-title="Познавательные",Первый космический HD
 udp://@239.254.2.252:1234
-#EXTINF:0,Планета HD
+
+#EXTINF:0 group-title="Познавательные",Планета HD
 udp://@239.254.2.213:1234
-#EXTINF:0,Приключения HD
+
+#EXTINF:0 group-title="Познавательные",Приключения HD
 udp://@239.254.2.19:1234
-#EXTINF:0,Телепутешествия
+
+#EXTINF:0 group-title="Познавательные",Телепутешествия
 udp://@239.254.2.45:1234
-#EXTINF:0,Т 24
+
+#EXTINF:0 group-title="Познавательные",Т 24
 udp://@239.254.2.62:1234
-#EXTINF:0,English Club HD
+
+#EXTINF:0 group-title="Разные",English Club HD
 udp://@239.254.3.78:1234
-#EXTINF:0,ЕГЭ ТВ
+
+#EXTINF:0 group-title="Разные",ЕГЭ ТВ
 udp://@239.254.3.64:1234
 
 #EXTINF:0,1HD
@@ -382,4 +404,20 @@ udp://@239.254.2.2:1234
 udp://@239.254.2.28:1234
 #EXTINF:0,Шансон ТВ
 udp://@239.254.2.128:1234
+
+
+#EXTINF:-1 tvg-logo="https://epgx.site/p/discovery-channel.png" group-title="Познавательные",Discovery HD
+http://moobl.ru/hls/Discovery_Channel_hd.m3u8
+
+#EXTINF:-1 tvg-logo="https://epgx.site/p/idxtra.png" group-title="Познавательные", ID Xtra Европа
+http://moobl.ru/hls/Investigation_Discovery_hd.m3u8
+
+#EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/5600.png" group-title="Познавательные",Univer TV
+http://cdn.universmotri.ru/live/mq.sdp/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/4826.png" group-title="Познавательные",Viju History
+http://135.181.115.81/russia/viasat_history/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/765.png" group-title="Познавательные",Viju Nature
+http://195.26.83.96:7013/play/37/index.m3u8
 
