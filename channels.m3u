@@ -1,9 +1,5 @@
 #EXTM3U m3uautoload=1 deinterlace=1 #EXTM3U url-tvg="http://epg.it999.ru/ru2.xml.gz, https://iptvx.one/epg/epg.xml.gz" catchup="append" catchup-source="&offset=-${offset}&utcstart=${timestamp}" catchup-days="3" cache=1500
 
-#EXTINF:-1 tvg-id="AmediaPremium.ru" tvg-logo="https://i.imgur.com/UUjehw9.png" group-title="Фильмы",Amedia Premium
-http://stream01.vnet.am/AmediaPremium/mono.m3u8
-
-
 #EXTINF:0 group-title="Основные",Первый канал
 udp://@239.255.1.16:1234
 
@@ -436,6 +432,8 @@ udp://@239.254.2.28:1234
 #EXTINF:0,Шансон ТВ
 udp://@239.254.2.128:1234
 
+#EXTINF:-1 tvg-id="AmediaPremium.ru" tvg-logo="https://i.imgur.com/UUjehw9.png" group-title="Фильмы",Amedia Premium
+http://stream01.vnet.am/AmediaPremium/mono.m3u8
 
 #EXTINF:-1 tvg-logo="https://epgx.site/p/discovery-channel.png" group-title="Познавательные",Discovery HD
 http://moobl.ru/hls/Discovery_Channel_hd.m3u8
