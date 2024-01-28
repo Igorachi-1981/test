@@ -1,6 +1,7 @@
-#EXTM3U
-#EXTINF:-1,13EME RUE HD
-http://fast-iptv.xyz:8080/live/3xuymgtHyt/NLzaRGRNEP/3846.ts
-#EXTINF:-1,The Matchbreaker
-http://fast-iptv.xyz:8080/movie/3xuymgtHyt/NLzaRGRNEP/16777.mkv
-1
+#EXTM3U m3uautoload=1 deinterlace=1 #EXTM3U url-tvg="http://epg.it999.ru/ru2.xml.gz, https://iptvx.one/epg/epg.xml.gz" catchup="append" catchup-source="&offset=-${offset}&utcstart=${timestamp}" catchup-days="3" cache=1500
+
+#EXTINF:-1 tvg-id="AmediaPremium.ru" tvg-logo="https://i.imgur.com/UUjehw9.png" group-title="Фильмы",Amedia Premium
+http://stream01.vnet.am/AmediaPremium/mono.m3u8
+
+#EXTINF:-1 tvg-id="Cinema.ru" tvg-logo="https://i.imgur.com/b5e9qUA.png" group-title="Фильмы",Cinema
+http://176.74.80.162:8099/Cinema/index.m3u8
