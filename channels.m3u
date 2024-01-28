@@ -3,10 +3,6 @@
 #EXTINF:-1 tvg-id="AmediaPremium.ru" tvg-logo="https://i.imgur.com/UUjehw9.png" group-title="Фильмы",Amedia Premium
 http://stream01.vnet.am/AmediaPremium/mono.m3u8
 
-#EXTINF:-1 tvg-id="Cinema.ru" tvg-logo="https://i.imgur.com/b5e9qUA.png" group-title="Фильмы",Cinema
-http://176.74.80.162:8099/Cinema/index.m3u8
-
-#EXTM3U
 
 #EXTINF:0 group-title="Основные",Первый канал
 udp://@239.255.1.16:1234
@@ -179,77 +175,112 @@ udp://@239.254.2.31:1234
 #EXTINF:0,Психология 21
 udp://@239.254.2.93:1234
 
-#EXTINF:0,Amedia Hit HD
+#EXTINF:0 group-title="Фильмы",Amedia Hit HD
 udp://@239.254.2.24:1234
-#EXTINF:0,Amedia Premium HD
+
+#EXTINF:0 group-title="Фильмы",Amedia Premium HD
 udp://@239.254.2.170:1234
-#EXTINF:0,Cinema
+
+#EXTINF:0 group-title="Фильмы",Cinema
 udp://@239.254.2.117:1234
-#EXTINF:0,FOX HD
+
+#EXTINF:0 group-title="Фильмы",FOX HD
 udp://@239.254.2.222:1234
-#EXTINF:0,FOXlife HD
+
+#EXTINF:0 group-title="Фильмы",FOXlife HD
 udp://@239.254.2.223:1234
-#EXTINF:0,Hollywood HD (MGM)
+
+#EXTINF:0 group-title="Фильмы",Hollywood HD (MGM)
 udp://@239.254.2.190:1234
-#EXTINF:0,Hollywood (AMC)
+
+#EXTINF:0 group-title="Фильмы",Hollywood (AMC)
 udp://@239.254.2.99:1234
-#EXTINF:0,Sony Channel HD
+
+#EXTINF:0 group-title="Фильмы",Sony Channel HD
 udp://@239.254.2.219:1234
-#EXTINF:0,Sony Sci-Fi
+
+#EXTINF:0 group-title="Фильмы",Sony Sci-Fi
 udp://@239.254.2.51:1234
-#EXTINF:0,Sony Turbo
+
+#EXTINF:0 group-title="Фильмы",Sony Turbo
 udp://@239.254.2.239:1234
-#EXTINF:0,TV1000
+
+#EXTINF:0 group-title="Фильмы",TV1000
 udp://@239.254.2.47:1234
-#EXTINF:0,TV1000 Action
+
+#EXTINF:0 group-title="Фильмы",TV1000 Action
 udp://@239.254.2.44:1234
-#EXTINF:0,TV1000 Русское кино
+
+#EXTINF:0 group-title="Фильмы",TV1000 Русское кино
 udp://@239.254.2.100:1234
-#EXTINF:0,TV XXI
+
+#EXTINF:0 group-title="Фильмы",TV XXI
 udp://@239.254.2.69:1234
-#EXTINF:0,Дом кино
+
+#EXTINF:0 group-title="Фильмы",Дом кино
 udp://@239.254.2.7:1234
-#EXTINF:0,Дом кино Премиум HD
+
+#EXTINF:0 group-title="Фильмы",Дом кино Премиум HD
 udp://@239.254.3.66:1234
-#EXTINF:0,Еврокино
+
+#EXTINF:0 group-title="Фильмы",Еврокино
 udp://@239.254.2.113:1234
-#EXTINF:0,Иллюзион+
+
+#EXTINF:0 group-title="Фильмы",Иллюзион+
 udp://@239.254.2.91:1234
-#EXTINF:0,Индийское кино
+
+#EXTINF:0 group-title="Фильмы",Индийское кино
 udp://@239.254.2.167:1234
-#EXTINF:0,Индия Bollywood HD
+
+#EXTINF:0 group-title="Фильмы",Индия Bollywood HD
 udp://@239.254.3.60:1234
-#EXTINF:0,Индия Zee TV
+
+#EXTINF:0 group-title="Фильмы",Индия Zee TV
 udp://@239.254.2.226:1234
-#EXTINF:0,Кинокомедия
+
+#EXTINF:0 group-title="Фильмы",Кинокомедия
 udp://@239.254.2.168:1234
-#EXTINF:0,Киномикс
+
+#EXTINF:0 group-title="Фильмы",Киномикс
 udp://@239.254.2.12:1234
-#EXTINF:0,Кинопоказ
+
+#EXTINF:0 group-title="Фильмы",Кинопоказ
 udp://@239.254.2.11:1234
-#EXTINF:0,Киносерия
+
+#EXTINF:0 group-title="Фильмы",Киносерия
 udp://@239.254.2.109:1234
-#EXTINF:0,Кино ТВ HD
+
+#EXTINF:0 group-title="Фильмы",Кино ТВ HD
 udp://@239.254.3.94:1234
-#EXTINF:0,Комедия
+
+#EXTINF:0 group-title="Фильмы",Комедия
 udp://@239.254.3.79:1234
-#EXTINF:0,Наше любимое кино
+
+#EXTINF:0 group-title="Фильмы",Наше любимое кино
 udp://@239.254.2.148:1234
-#EXTINF:0,Мир сериала
+
+#EXTINF:0 group-title="Фильмы",Мир сериала
 udp://@239.254.2.224:1234
-#EXTINF:0,НСТ
+
+#EXTINF:0 group-title="Фильмы",НСТ
 udp://@239.254.2.67:1234
-#EXTINF:0,Родное кино
+
+#EXTINF:0 group-title="Фильмы",Родное кино
 udp://@239.254.2.26:1234
-#EXTINF:0,Русский бестселлер
+
+#EXTINF:0 group-title="Фильмы",Русский бестселлер
 udp://@239.254.2.229:1234
-#EXTINF:0,Русский детектив
+
+#EXTINF:0 group-title="Фильмы",Русский детектив
 udp://@239.254.2.112:1234
-#EXTINF:0,Русский иллюзион
+
+#EXTINF:0 group-title="Фильмы",Русский иллюзион
 udp://@239.254.2.85:1234
-#EXTINF:0,Русский роман HD
+
+#EXTINF:0 group-title="Фильмы",Русский роман HD
 udp://@239.254.3.8:1234
-#EXTINF:0,Феникс+Кино
+
+#EXTINF:0 group-title="Фильмы",Феникс+Кино
 udp://@239.254.2.46:1234
 
 #EXTINF:0,Ani
@@ -421,3 +452,11 @@ http://135.181.115.81/russia/viasat_history/playlist.m3u8
 #EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/765.png" group-title="Познавательные",Viju Nature
 http://195.26.83.96:7013/play/37/index.m3u8
 
+#EXTINF:-1 tvg-logo="https://epgx.site/p/kto-est-kto.png" group-title="Познавательные",Кто есть кто
+http://146.158.0.56/KtoEstKto/mono.m3u8
+
+#EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/2311.png" group-title="Познавательные",Приключения HD
+http://ott-cdn.ucom.am/s99/04.m3u8
+
+#EXTINF:-1 tvg-id="Pobeda.ru" tvg-logo="https://i.imgur.com/4KiYSln.png" group-title="Познавательные",Победа
+http://moobl.ru/hls/Pobeda.m3u8
