@@ -8,7 +8,7 @@ http://176.74.80.162:8099/Cinema/index.m3u8
 
 #EXTM3U
 
-#EXTINF:-1 group-title="Основные",Первый канал
+#EXTINF:0 group-title="Основные",Первый канал
 udp://@239.255.1.16:1234
 
 #EXTINF:0 group-title="Основные",Россия 1
@@ -83,27 +83,36 @@ http://80.65.18.213/perviy_molodeginyi_3100kb.m3u8
 #EXTINF:0 group-title="Новости",Афонтово Красноярск
 http://xstream.afontovo.ru/afontovo_ya.m3u8
 
-#EXTINF:0,Енисей Красноярск
+#EXTINF:0 group-title="Новости",Енисей Красноярск
 https://hls-eniseytv.cdnvideo.ru/eniseytv/stream1/playlist.m3u8
-#EXTINF:0,ТВК Красноярск
+
+#EXTINF:0 group-title="Новости",ТВК Красноярск
 http://air.tvk6.ru/tvk24/index.m3u8
-#EXTINF:0,Первый канал HD (МСК)
+
+#EXTINF:0 group-title="Основные",Первый канал HD (МСК)
 udp://@239.254.2.235:1234
-#EXTINF:0,Россия 1 HD (МСК)
+
+#EXTINF:0 group-title="Основные",Россия 1 HD (МСК)
 udp://@239.254.2.236:1234
 
-#EXTINF:0,360° HD
+#EXTINF:0 group-title="Новости",360° HD
 udp://@239.254.2.166:1234
-#EXTINF:0,365 дней
+
+#EXTINF:0 group-title="Разные",365 дней
 udp://@239.254.2.110:1234
-#EXTINF:0,РБК
+
+#EXTINF:0 group-title="Новости",РБК
 udp://@239.254.2.59:1234
-#EXTINF:0,СТС Love
+
+#EXTINF:0 group-title="Основные",СТС Love
 udp://@239.254.2.210:1234
-#EXTINF:0,Сарафан ТВ
+
+#EXTINF:0 group-title="Развлекательные",Сарафан ТВ
 udp://@239.254.2.129:1234
-#EXTINF:0,ТНТ4
+
+#EXTINF:0 group-title="Развлекательные",ТНТ4
 udp://@239.254.2.221:1234
+
 #EXTINF:0,Успех
 udp://@239.254.2.56:1234
 #EXTINF:0,Че!
