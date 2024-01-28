@@ -107,16 +107,21 @@ udp://@239.254.2.221:1234
 
 #EXTINF:0,Успех
 udp://@239.254.2.56:1234
-#EXTINF:0,Че!
+
+#EXTINF:0 group-title="Развлекательные",Че!
 udp://@239.254.2.33:1234
+
 #EXTINF:0,Ю ТВ
 udp://@239.254.2.155:1234
-#EXTINF:0,Авто 24
+#EXTINF:0 group-title="Развлекательные",Авто 24
 udp://@239.254.2.169:1234
-#EXTINF:0,Авто Плюс
+
+#EXTINF:0 group-title="Развлекательные",Авто Плюс
 udp://@239.254.2.106:1234
-#EXTINF:0,Драйв
+
+#EXTINF:0 group-title="Развлекательные",Драйв
 udp://@239.254.2.82:1234
+
 #EXTINF:0,Бобёр
 udp://@239.254.2.152:1234
 #EXTINF:0,Загородная жизнь
@@ -133,7 +138,7 @@ udp://@239.254.2.38:1234
 udp://@239.254.2.105:1234
 #EXTINF:0,Ретро
 udp://@239.254.2.87:1234
-#EXTINF:0,Совершенно секретно
+#EXTINF:0 group-title="Познавательные",Совершенно секретно
 udp://@239.254.2.115:1234
 #EXTINF:0,Охота и рыбалка
 udp://@239.254.2.18:1234
@@ -144,8 +149,9 @@ udp://@239.254.2.162:1234
 
 #EXTINF:0,Extreme Sports
 udp://@239.254.2.96:1234
-#EXTINF:0,Russian Extreme HD
+#EXTINF:0 group-title="Развлекательные",Russian Extreme HD
 udp://@239.254.3.96:1234
+
 #EXTINF:0,МАТЧ! HD
 udp://@239.254.3.81:1234
 #EXTINF:0,МАТЧ! Арена HD
@@ -279,33 +285,46 @@ udp://@239.254.3.8:1234
 #EXTINF:0 group-title="Фильмы",Феникс+Кино
 udp://@239.254.2.46:1234
 
-#EXTINF:0,Ani
+#EXTINF:0 group-title="Детские",Ani
 udp://@239.254.3.75:1234
-#EXTINF:0,Disney
+
+#EXTINF:0 group-title="Детские",Disney
 udp://@239.254.2.1:1234
-#EXTINF:0,Gulli girl
+
+#EXTINF:0 group-title="Детские",Gulli girl
 udp://@239.254.2.196:1234
-#EXTINF:0,Nick Jr.
+
+#EXTINF:0 group-title="Детские",Nick Jr.
 udp://@239.254.2.218:1234
-#EXTINF:0,Nickelodeon HD
+
+#EXTINF:0 group-title="Детские",Nickelodeon HD
 udp://@239.254.2.202:1234
-#EXTINF:0,TiJi
+
+#EXTINF:0 group-title="Детские",TiJi
 udp://@239.254.2.195:1234
-#EXTINF:0,В гостях у сказки
+
+#EXTINF:0 group-title="Детские",В гостях у сказки
 udp://@239.254.2.92:1234
-#EXTINF:0,Детский мир
+
+#EXTINF:0 group-title="Детские",Детский мир
 udp://@239.254.2.121:1234
-#EXTINF:0,Мама
+
+#EXTINF:0 group-title="Детские",Мама
 udp://@239.254.2.63:1234
-#EXTINF:0,Мульт
+
+#EXTINF:0 group-title="Детские",Мульт
 udp://@239.254.2.220:1234
-#EXTINF:0,Мультиландия
+
+#EXTINF:0 group-title="Детские",Мультиландия
 udp://@239.254.2.192:1234
-#EXTINF:0,Мультимузыка
+
+#EXTINF:0 group-title="Детские",Мультимузыка
 udp://@239.254.2.156:1234
-#EXTINF:0,Рыжий
+
+#EXTINF:0 group-title="Детские",Рыжий
 udp://@239.254.2.41:1234
-#EXTINF:0,Уникум
+
+#EXTINF:0 group-title="Детские",Уникум
 udp://@239.254.2.118:1234
 
 #EXTINF:0,Nat Geo Wild HD
@@ -432,8 +451,40 @@ udp://@239.254.2.28:1234
 #EXTINF:0,Шансон ТВ
 udp://@239.254.2.128:1234
 
-#EXTINF:-1 tvg-id="AmediaPremium.ru" tvg-logo="https://i.imgur.com/UUjehw9.png" group-title="Фильмы",Amedia Premium
-http://stream01.vnet.am/AmediaPremium/mono.m3u8
+#EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/935.png" group-title="Фильмы",.Black
+http://94.232.104.237:8000/play/106/index.m3u8
+
+#EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/311.png" group-title="Фильмы",.Red
+
+#EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/516.png" group-title="Фильмы",.Sci-Fi
+http://stream01.vnet.am/Kinoseriya/mono.m3u8
+
+#EXTINF:-1 tvg-logo="https://epgx.site/p/312-kino.png" group-title="Фильмы",312 Кино
+http://moobl.ru/hls/312_kino.m3u8
+
+#EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/1371.png" group-title="Фильмы",Amedia 1
+http://176.222.190.11/btv/SWM/A1/A1.m3u8
+
+#EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/2492.png" group-title="Фильмы",Amedia 2
+http://ott-cdn.ucom.am/s33/04.m3u8
+
+#EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/4770.png" group-title="Фильмы",BackusTV Original
+https://stream.backustv.ru/live/btv/index.m3u8
+
+#EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/4662.png" group-title="Фильмы",BackusTV Dark
+http://stream.backustv.ru/live/btv2/index.m3u8
+
+#EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/1013.png" group-title="Фильмы",Viju+ Premiere HD
+http://moobl.ru/hls/Viju_plus_Premiere_hd.m3u8
+
+#EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/2838.png" group-title="Фильмы",Viju+ Serial HD
+http://moobl.ru/hls/Viju_plus_Serial_hd.m3u8
+
+#EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/1011.png" group-title="Фильмы",Viju+ Comedy HD
+http://moobl.ru/hls/Viju_plus_Comedy_hd.m3u8
+
+#EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/7314.png" group-title="Фильмы",Кинеко
+http://109.197.192.121:8080/foxhd/tracks-v1a1/mono.m3u8
 
 #EXTINF:-1 tvg-logo="https://epgx.site/p/discovery-channel.png" group-title="Познавательные",Discovery HD
 http://moobl.ru/hls/Discovery_Channel_hd.m3u8
@@ -458,3 +509,19 @@ http://ott-cdn.ucom.am/s99/04.m3u8
 
 #EXTINF:-1 tvg-id="Pobeda.ru" tvg-logo="https://i.imgur.com/4KiYSln.png" group-title="Познавательные",Победа
 http://moobl.ru/hls/Pobeda.m3u8
+
+#EXTINF:-1 tvg-logo="https://epgx.site/p/gulli-girl.png" group-title="Детские",Gulli Girl
+http://135.181.115.81/russia/gulli_girl/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/6261.png" group-title="Детские",Детское кино International
+https://v2.catcast.tv/content/38720/index.m3u8
+
+#EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/7669.png" group-title="Детские",СОЛНЦЕ
+http://tv.mediacdn.ru/live/disney/playlist_3000k.m3u8
+
+#EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/2481.png" group-title="Детские",СТС Kids
+http://45.159.74.13:80/DisneyChannel/tracks-v1a1/mono.m3u8
+
+#EXTINF:-1 tvg-id="Leva.ru" tvg-logo="https://i.imgur.com/lQzgmpz.png" group-title="Детские",Лёва (1080p) [Geo-blocked]
+https://strm.yandex.ru/kal/leva/leva0.m3u8
+
