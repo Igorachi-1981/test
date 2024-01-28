@@ -126,57 +126,79 @@ udp://@239.254.2.82:1234
 #EXTINF:0 group-title="Разные",Бобёр
 udp://@239.254.2.152:1234
 
-#EXTINF:0,Загородная жизнь
+#EXTINF:0 group-title="Разные",Загородная жизнь
 udp://@239.254.2.227:1234
-#EXTINF:0,Усадьба
+
+#EXTINF:0 group-title="Разные",Усадьба
 udp://@239.254.2.79:1234
-#EXTINF:0,Еда премиум HD
+
+#EXTINF:0 group-title="Разные",Еда премиум HD
 udp://@239.254.2.86:1234
-#EXTINF:0,Кухня ТВ
+
+#EXTINF:0 group-title="Разные",Кухня ТВ
 udp://@239.254.2.181:1234
-#EXTINF:0,Телекафе
+
+#EXTINF:0 group-title="Разные",Телекафе
 udp://@239.254.2.38:1234
-#EXTINF:0,Ностальгия
+
+#EXTINF:0 group-title="Разные",Ностальгия
 udp://@239.254.2.105:1234
-#EXTINF:0,Ретро
+
+#EXTINF:0 group-title="Разные",Ретро
 udp://@239.254.2.87:1234
+
 #EXTINF:0 group-title="Познавательные",Совершенно секретно
 udp://@239.254.2.115:1234
-#EXTINF:0,Охота и рыбалка
+
+#EXTINF:0 group-title="Разные",Охота и рыбалка
 udp://@239.254.2.18:1234
-#EXTINF:0,Охотник и рыболов HD
+
+#EXTINF:0 group-title="Разные",Охотник и рыболов HD
 udp://@239.254.2.237:1234
-#EXTINF:0,RTД HD
+
+#EXTINF:0 group-title="Разные",RTД HD
 udp://@239.254.2.162:1234
 
-#EXTINF:0,Extreme Sports
+#EXTINF:0 group-title="Спорт",Extreme Sports
 udp://@239.254.2.96:1234
+
 #EXTINF:0 group-title="Развлекательные",Russian Extreme HD
 udp://@239.254.3.96:1234
 
-#EXTINF:0,МАТЧ! HD
+#EXTINF:0 group-title="Спорт",МАТЧ! HD
 udp://@239.254.3.81:1234
-#EXTINF:0,МАТЧ! Арена HD
+
+#EXTINF:0 group-title="Спорт",МАТЧ! Арена HD
 udp://@239.254.2.138:1234
-#EXTINF:0,МАТЧ! Боец
+
+#EXTINF:0 group-title="Спорт",МАТЧ! Боец
 udp://@239.254.2.104:1234
-#EXTINF:0,МАТЧ! Игра
+
+#EXTINF:0 group-title="Спорт",МАТЧ! Игра
 udp://@239.254.2.145:1234
-#EXTINF:0,МАТЧ! Премьер HD
+
+#EXTINF:0 group-title="Спорт",МАТЧ! Премьер HD
 udp://@239.254.2.78:1234
-#EXTINF:0,МАТЧ! Страна
+
+#EXTINF:0 group-title="Спорт",МАТЧ! Страна
 udp://@239.254.2.13:1234
-#EXTINF:0,КХЛ HD
+
+#EXTINF:0 group-title="Спорт",КХЛ HD
 udp://@239.254.2.228:1234
-#EXTINF:0,Доктор
+
+#EXTINF:0 group-title="Разные",Доктор
 udp://@239.254.2.189:1234
-#EXTINF:0,Живи!
+
+#EXTINF:0 group-title="Разные",Живи!
 udp://@239.254.2.43:1234
-#EXTINF:0,Здоровое ТВ
+
+#EXTINF:0 group-title="Разные",Здоровое ТВ
 udp://@239.254.2.76:1234
-#EXTINF:0,Тонус
+
+#EXTINF:0 group-title="Разные",Тонус
 udp://@239.254.2.31:1234
-#EXTINF:0,Психология 21
+
+#EXTINF:0 group-title="Разные",Психология 21
 udp://@239.254.2.93:1234
 
 #EXTINF:0 group-title="Фильмы",Amedia Hit HD
@@ -329,19 +351,25 @@ udp://@239.254.2.41:1234
 #EXTINF:0 group-title="Детские",Уникум
 udp://@239.254.2.118:1234
 
-#EXTINF:0,Nat Geo Wild HD
+#EXTINF:0 group-title="Разные",Nat Geo Wild HD
 udp://@239.254.2.137:1234
-#EXTINF:0,ZООпарк
+
+#EXTINF:0 group-title="Разные",ZООпарк
 udp://@239.254.2.157:1234
-#EXTINF:0,В мире животных HD
+
+#EXTINF:0 group-title="Разные",В мире животных HD
 udp://@239.254.2.253:1234
-#EXTINF:0,Домашние животные
+
+#EXTINF:0 group-title="Разные",Домашние животные
 udp://@239.254.2.94:1234
-#EXTINF:0,Живая Планета
+
+#EXTINF:0 group-title="Познавательные",Живая Планета
 udp://@239.254.3.61:1234
-#EXTINF:0,Зоо ТВ
+
+#EXTINF:0 group-title="Разные",Зоо ТВ
 udp://@239.254.2.25:1234
-#EXTINF:0,Da Vinci
+
+#EXTINF:0 group-title="Разные",Da Vinci
 udp://@239.254.2.173:1234
 
 #EXTINF:0 group-title="Познавательные",Galaxy
@@ -410,47 +438,67 @@ udp://@239.254.3.78:1234
 #EXTINF:0 group-title="Разные",ЕГЭ ТВ
 udp://@239.254.3.64:1234
 
-#EXTINF:0,1HD
+#EXTINF:0 group-title="Разные",1HD
 udp://@239.254.2.249:1234
-#EXTINF:0,Europa Plus TV
+
+#EXTINF:0 group-title="Музыка",Europa Plus TV
 udp://@239.254.2.151:1234
-#EXTINF:0,Bridge TV
+
+#EXTINF:0 group-title="Музыка",Bridge TV
 udp://@239.254.2.27:1234
-#EXTINF:0,Bridge TV Русский Хит
+
+#EXTINF:0 group-title="Музыка",Bridge TV Русский Хит
 udp://@239.254.2.130:1234
-#EXTINF:0,CMusic Stingray HD
+
+#EXTINF:0 group-title="Музыка",CMusic Stingray HD
 udp://@239.254.3.80:1234
-#EXTINF:0,Mezzo Live HD
+
+#EXTINF:0 group-title="Музыка",Mezzo Live HD
 udp://@239.254.2.142:1234
-#EXTINF:0,MTV
+
+#EXTINF:0 group-title="Музыка",MTV
 udp://@239.254.2.191:1234
-#EXTINF:0,MTV 80s
+
+#EXTINF:0 group-title="Музыка",MTV 80s
 udp://@239.254.2.216:1234
-#EXTINF:0,MTV 90s
+
+#EXTINF:0 group-title="Музыка",MTV 90s
 udp://@239.254.2.215:1234
-#EXTINF:0,MTV Club
+
+#EXTINF:0 group-title="Музыка",MTV Club
 udp://@239.254.2.217:1234
-#EXTINF:0,MTV Hits
+
+#EXTINF:0 group-title="Музыка",MTV Hits
 udp://@239.254.2.214:1234
-#EXTINF:0,MTV Live HD
+
+#EXTINF:0 group-title="Музыка",MTV Live HD
 udp://@239.254.2.201:1234
-#EXTINF:0,Мusicbox Russia
+
+#EXTINF:0 group-title="Музыка",Мusicbox Russia
 udp://@239.254.2.14:1234
-#EXTINF:0,RU TV
+
+#EXTINF:0 group-title="Музыка",RU TV
 udp://@239.254.2.127:1234
-#EXTINF:0,Trace Urban HD
+
+#EXTINF:0 group-title="Музыка",Trace Urban HD
 udp://@239.254.2.183:1234
-#EXTINF:0,VH-1
+
+#EXTINF:0 group-title="Музыка",VH-1
 udp://@239.254.2.198:1234
-#EXTINF:0,Жара TV
+
+#EXTINF:0 group-title="Музыка",Жара TV
 udp://@239.254.2.203:1234
-#EXTINF:0,Ля-минор
+
+#EXTINF:0 group-title="Музыка",Ля-минор
 udp://@239.254.2.204:1234
-#EXTINF:0,Музыка Первого
+
+#EXTINF:0 group-title="Музыка",Музыка Первого
 udp://@239.254.2.2:1234
-#EXTINF:0,ТНТ music
+
+#EXTINF:0 group-title="Музыка",ТНТ music
 udp://@239.254.2.28:1234
-#EXTINF:0,Шансон ТВ
+
+#EXTINF:0 group-title="Музыка",Шансон ТВ
 udp://@239.254.2.128:1234
 
 #EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/935.png" group-title="Фильмы",.Black
@@ -491,11 +539,41 @@ http://109.197.192.121:8080/foxhd/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/2153.png" group-title="Фильмы",Star Family
 http://89.254.128.5:22280/star_family_hd/video.m3u8
 
+#EXTINF:-1 tvg-id="STARTAir.ru" tvg-logo="https://i.imgur.com/4bACa7x.png" group-title="Фильмы",START Air
+http://moobl.ru/hls/START_Air_HD.m3u8
+
+#EXTINF:-1 tvg-id="STARTWorld.ru" tvg-logo="https://i.imgur.com/TXtY5eM.png" group-title="Фильмы",START World
+http://moobl.ru/hls/START_World_HD.m3u8
+
+#EXTINF:-1 tvg-id="NasheNovoeKino.ru" tvg-logo="https://i.imgur.com/IOxIsPj.png" group-title="Фильмы",Наше Новое Кино (1080p)
+http://135.181.115.81/russia/nashe_novoe_kino/playlist.m3u8
+
+#EXTINF:-1 tvg-id="Muzhskoekino.ru" tvg-logo="https://i.imgur.com/8RN3tQC.png" group-title="Фильмы",Мужское кино
+http://moobl.ru/hls/Muzhskoe_kino_hd.m3u8
+
+#EXTINF:-1 tvg-id="PremialnoeHD.ru" tvg-logo="https://i.imgur.com/ck4aLBP.png" group-title="Фильмы",Премиальное HD
+http://213.172.73.133:8081/nimble_live/9008_Премиальное_HD/playlist.m3u8
+
+#EXTINF:-1 tvg-id="STRK.ru" tvg-logo="https://i.imgur.com/mLZDuIF.png" group-title="Фильмы",СТРК (720p) [Not 24/7]
+http://sochinskayatrk.ru/hdtv/hls/strc_hd/playlist.m3u8
+
+#EXTINF:-1 tvg-id="KinopremyeraHD.ru" tvg-logo="https://i.imgur.com/s0UYT8T.png" group-title="Фильмы",Кинопремьера HD
+http://stream02.vnet.am/Kinopremera/mono.m3u8
+
+#EXTINF:-1 tvg-id="Channel43.ru" tvg-logo="https://i.imgur.com/hiN166x.png" group-title="Фильмы",43 канал (Туапсе) (720p)
+http://sochinskayatrk.ru/hdtv/hls/43Channel_hd/playlist.m3u8
+
 #EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/3357.png" group-title="Фильмы",Мосфильм. Золотая коллекция
 http://46.151.151.245:10002/play/a0bi
 
 #EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/2041.png" group-title="Фильмы",НТВ Хит
 http://cdn.ntv.ru/th_hit/tracks-v1a1/mono.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Фильмы",Cinema Classic
+https://api.alpaca.t62a.com/hls/9114/index.m3u8
+
+#EXTINF:-1 tvg-id="Kino24.ru" tvg-logo="https://i.imgur.com/QAdDARF.png" group-title="Фильмы",Kino 24
+http://sirius.greenhosting.ru/Kino24Ru/video.m3u8
 
 #EXTINF:-1 tvg-id="Pro100TV.ru" tvg-logo="https://i.imgur.com/YfQEflM.png" group-title="Фильмы",Pro100TV
 https://sirius.greenhosting.ru/Pro100tvRu/video.m3u8
