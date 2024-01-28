@@ -33,7 +33,7 @@ udp://@239.255.1.24:1234
 #EXTINF:0 group-title="Основные",РЕН ТВ
 udp://@239.255.1.6:1234
 
-#EXTINF:0 group-title="Разное",Спас ТВ
+#EXTINF:0 group-title="Разные",Спас ТВ
 udp://@239.255.1.7:1234
 
 #EXTINF:0 group-title="Основные",СТС
@@ -533,6 +533,15 @@ http://moobl.ru/hls/Viju_plus_Serial_hd.m3u8
 #EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/1011.png" group-title="Фильмы",Viju+ Comedy HD
 http://moobl.ru/hls/Viju_plus_Comedy_hd.m3u8
 
+#EXTINF:-1 tvg-id="vijuTV1000action.ru" tvg-logo="https://i.imgur.com/TMmyuzh.png" group-title="Фильмы",Viju TV1000 Action
+http://moobl.ru/hls/TV1000_action_hd.m3u8
+
+#EXTINF:-1 tvg-id="vijuTV1000.ru" tvg-logo="https://i.imgur.com/ZMsyjSr.png" group-title="Фильмы",viju TV1000 Русское кино
+http://135.181.115.81/russia/tv1000_russkoe_kino/playlist.m3u8
+
+#EXTINF:-1 tvg-id="vijuTV1000russkoe.ru" tvg-logo="https://i.imgur.com/Meak2y4.png" group-title="Фильмы",viju Русское кино
+http://82.209.197.187:8080/udp/239.0.100.82:1234
+
 #EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/7314.png" group-title="Фильмы",Кинеко
 http://109.197.192.121:8080/foxhd/tracks-v1a1/mono.m3u8
 
@@ -596,9 +605,6 @@ http://195.26.83.96:7013/play/37/index.m3u8
 #EXTINF:-1 tvg-logo="https://epgx.site/p/kto-est-kto.png" group-title="Познавательные",Кто есть кто
 http://146.158.0.56/KtoEstKto/mono.m3u8
 
-#EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/2311.png" group-title="Познавательные",Приключения HD
-http://ott-cdn.ucom.am/s99/04.m3u8
-
 #EXTINF:-1 tvg-id="Pobeda.ru" tvg-logo="https://i.imgur.com/4KiYSln.png" group-title="Познавательные",Победа
 http://moobl.ru/hls/Pobeda.m3u8
 
@@ -632,6 +638,32 @@ https://strm.yandex.ru/kal/leva/leva0.m3u8
 #EXTINF:-1 group-title="Спорт",Tennis Channel
 https://tennischannel-intl-samsung-uk.amagi.tv/playlist720_p.m3u8
 
+#EXTINF:-1 tvg-id="TochkaTV.ru" tvg-logo="https://i.imgur.com/yyNR5jG.png" group-title="Разные",Точка ТВ
+https://tochkatv-live.cdnvideo.ru/tochkatv2/tochkatv-sd.stream/playlist.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Разные",Толк HD
+http://live-tolknews.cdnvideo.ru/tolknews/stream/playlist.m3u8
+
+#EXTINF:-1 tvg-id="RENTVInternational.ru" tvg-logo="https://i.imgur.com/gBjk9oF.png" group-title="Основные",Рен ТВ International
+http://moobl.ru/hls/Rentv_international.m3u8
+
+#EXTINF:-1 tvg-id="FridayInternational.ru" tvg-logo="https://i.imgur.com/N2z3EZC.png" group-title="Основные",Пятница International
+https://stream01.vnet.am/Pyatnica/mono.m3u8
+
+#EXTINF:-1 tvg-id="OstrosyuzhetnoyeHD.ru" tvg-logo="https://i.imgur.com/NwQ7GBy.png" group-title="Фильмы",Остросюжетное HD
+http://213.172.73.133:8081/nimble_live/9009_Остросюжетное_HD/playlist.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Музыка",Музыка Кино International
+https://kino-1.catcast.tv/content/37739/index.m3u8
+
+#EXTINF:-1 tvg-id="KVNTV.ru" tvg-logo="https://i.imgur.com/Vw3LFLX.png" group-title="Развлекательные",КВН ТВ
+http://moobl.ru/hls/KVN.m3u8
+
+#EXTINF:-1 tvg-id="ZvezdaPlus.ru" tvg-logo="https://i.imgur.com/NNmjD9Z.png" group-title="Основные",Звезда Плюс
+http://tvchannelstream1.tvzvezda.ru/cdn/zvezdaplus/playlist.m3u8
+
+#EXTINF:-1 tvg-id="TVRain.ru" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Tvrain.svg/512px-Tvrain.svg.png" group-title="Новости",Дождь (1080p)
+https://1527562093.rsc.cdn77.org/transcode/ngrp:ses_all/playlist.m3u8
 
 #EXTINF:-1 group-title="Вэб-камеры" tvg-rec="2" timeshift="2", Улица 1
 rtsp://192.168.0.191:554/user=admin&password=D5pJmucT&channel=1&stream=0.sdp?real_stream--rtp-caching=100
