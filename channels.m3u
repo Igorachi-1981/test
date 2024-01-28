@@ -90,7 +90,7 @@ udp://@239.254.2.236:1234
 #EXTINF:0 group-title="Новости",360° HD
 udp://@239.254.2.166:1234
 
-#EXTINF:0 group-title="Разные",365 дней
+#EXTINF:0 group-title="Познавательные",365 дней
 udp://@239.254.2.110:1234
 
 #EXTINF:0 group-title="Новости",РБК
@@ -105,14 +105,15 @@ udp://@239.254.2.129:1234
 #EXTINF:0 group-title="Развлекательные",ТНТ4
 udp://@239.254.2.221:1234
 
-#EXTINF:0,Успех
+#EXTINF:0 group-title="Разные",Успех
 udp://@239.254.2.56:1234
 
 #EXTINF:0 group-title="Развлекательные",Че!
 udp://@239.254.2.33:1234
 
-#EXTINF:0,Ю ТВ
+#EXTINF:0 group-title="Разные",Ю ТВ
 udp://@239.254.2.155:1234
+
 #EXTINF:0 group-title="Развлекательные",Авто 24
 udp://@239.254.2.169:1234
 
@@ -122,8 +123,9 @@ udp://@239.254.2.106:1234
 #EXTINF:0 group-title="Развлекательные",Драйв
 udp://@239.254.2.82:1234
 
-#EXTINF:0,Бобёр
+#EXTINF:0 group-title="Разные",Бобёр
 udp://@239.254.2.152:1234
+
 #EXTINF:0,Загородная жизнь
 udp://@239.254.2.227:1234
 #EXTINF:0,Усадьба
@@ -486,6 +488,15 @@ http://moobl.ru/hls/Viju_plus_Comedy_hd.m3u8
 #EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/7314.png" group-title="Фильмы",Кинеко
 http://109.197.192.121:8080/foxhd/tracks-v1a1/mono.m3u8
 
+#EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/2153.png" group-title="Фильмы",Star Family
+http://89.254.128.5:22280/star_family_hd/video.m3u8
+
+#EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/3357.png" group-title="Фильмы",Мосфильм. Золотая коллекция
+http://46.151.151.245:10002/play/a0bi
+
+#EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/2041.png" group-title="Фильмы",НТВ Хит
+http://cdn.ntv.ru/th_hit/tracks-v1a1/mono.m3u8
+
 #EXTINF:-1 tvg-logo="https://epgx.site/p/discovery-channel.png" group-title="Познавательные",Discovery HD
 http://moobl.ru/hls/Discovery_Channel_hd.m3u8
 
@@ -510,6 +521,18 @@ http://ott-cdn.ucom.am/s99/04.m3u8
 #EXTINF:-1 tvg-id="Pobeda.ru" tvg-logo="https://i.imgur.com/4KiYSln.png" group-title="Познавательные",Победа
 http://moobl.ru/hls/Pobeda.m3u8
 
+#EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/2768.png" group-title="Познавательные",Арсенал
+http://91.221.201.2:7013/play/a009/index.m3u8
+
+#EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/617.png" group-title="Познавательные",Точка Отрыва
+http://109.239.208.82:80/tochka/index.m3u8
+
+#EXTINF:-1 group-title="Познавательные",NASA TV
+https://uplynkcontent.sinclairstoryline.com/channel/ddd76fdc1c0a456ba537e4f48e827d3e.m3u8
+
+#EXTINF:-1 tvg-id="NashaSibir.ru" tvg-logo="https://i.imgur.com/uXOz2d9.png" group-title="Познавательные",Наша Сибирь (1080p) [Geo-blocked]
+https://strm.yandex.ru/kal/sibir/sibir0.m3u8
+
 #EXTINF:-1 tvg-logo="https://epgx.site/p/gulli-girl.png" group-title="Детские",Gulli Girl
 http://135.181.115.81/russia/gulli_girl/playlist.m3u8
 
@@ -524,4 +547,19 @@ http://45.159.74.13:80/DisneyChannel/tracks-v1a1/mono.m3u8
 
 #EXTINF:-1 tvg-id="Leva.ru" tvg-logo="https://i.imgur.com/lQzgmpz.png" group-title="Детские",Лёва (1080p) [Geo-blocked]
 https://strm.yandex.ru/kal/leva/leva0.m3u8
+
+#EXTINF:-1 group-title="Спорт",Tennis Channel
+https://tennischannel-intl-samsung-uk.amagi.tv/playlist720_p.m3u8
+
+
+#EXTINF:-1 group-title="Вэб-камеры" tvg-rec="2" timeshift="2", Улица 1
+rtsp://192.168.0.191:554/user=admin&password=D5pJmucT&channel=1&stream=0.sdp?real_stream--rtp-caching=100
+#EXTINF:-1 group-title="Вэб-камеры" tvg-rec="2" timeshift="2", Ограда
+rtsp://192.168.0.191:554/user=admin&password=D5pJmucT&channel=2&stream=0.sdp?real_stream--rtp-caching=100
+#EXTINF:-1 group-title="Вэб-камеры" tvg-rec="2" timeshift="2", Огород
+rtsp://192.168.0.191:554/user=admin&password=D5pJmucT&channel=3&stream=0.sdp?real_stream--rtp-caching=100
+#EXTINF:-1 group-title="Вэб-камеры" tvg-rec="2" timeshift="2", Улица 2
+rtsp://192.168.0.191:554/user=admin&password=D5pJmucT&channel=4&stream=0.sdp?real_stream--rtp-caching=100
+
+
 
